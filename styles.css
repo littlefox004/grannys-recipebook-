@@ -1,0 +1,117 @@
+body {
+  background-color: #fffaf5;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header.header-title {
+  background-image: url(https://s23209.pcdn.co/wp-content/uploads/2023/11/221024_DD_Hungarian-Mushroom-Soup_193edit.jpg),
+    url(https://329398.fs1.hubspotusercontent-na1.net/hub/329398/hubfs/2021-recipes/Medjool-Date-Cranberry-%26-Orange-Granola-Clusters.jpg?width=550&name=Medjool-Date-Cranberry-&-Orange-Granola-Clusters.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+header.header-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+header.header-title h1 {
+  color: #985427;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  border: none;
+  z-index: 2;
+  position: relative;
+}
+
+h2 {
+  color: #af6331;
+  font-family: "Courier New", Courier, "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ba8562;
+  font-family: "Times New Roman", "Courier New", Courier, Times, serif;
+  font-size: 1em;
+  font-weight: lighter;
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+li {
+  color: #c87945;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center; /* Center the image within its container */
+  margin: 30px 0; /* Add space above and below the image container */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main img:not(.family) {
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+.cocktail {
+  width: 200px;
+  border-radius: 10px;
+  filter: brightness(1.1);
+}
+
+.about-author {
+  margin-top: 40px;
+  text-align: left;
+}
